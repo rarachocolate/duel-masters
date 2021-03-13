@@ -27,6 +27,7 @@ while alice.life == true && mary.life = true
 
   break if mary.life == false
 
+  #後攻のプレイヤーのみ1ターン目からドローできるようにするため
   count += 1
 
   two_duel(mary, alice, count)
